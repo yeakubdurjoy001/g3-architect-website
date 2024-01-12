@@ -2,3 +2,63 @@
 * {
   font-family: "Work Sans", "Gill Sans", "sans-serif";
 }
+/* Shared Styles */
+.btn-primary {
+  border-radius: 8px;
+  background: #ff900e;
+  width: 180px;
+  height: 64px;
+  flex-shrink: 0;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+header {
+  background: rgba(255, 144, 14, 0.1);
+  padding: 50px 150px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #131313;
+  align-items: center;
+}
+nav > ul {
+  display: flex;
+  list-style: none;
+  color: #424242;
+  font-size: 18px;
+  font-weight: 500;
+  gap: 30px;
+}
+.banner-content {
+  max-width: 800px;
+  text-align: center;
+  margin: 0 auto;
+}
+.banner-title {
+  font-size: 4rem;
+  font-weight: 700;
+  color: #131313;
+}
+.banner img {
+  width: 100%;
+}
+/* Responsive Media Querry */
+@media screen and (max-width: 576px) {
+  header {
+    padding: 10px;
+  }
+  nav {
+    flex-direction: column;
+  }
+}
