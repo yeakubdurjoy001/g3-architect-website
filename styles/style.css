@@ -72,3 +72,21 @@ nav > ul {
     flex-direction: column;
   }
 }
+
+/* main styles */
+main {
+}
+.team-container {
+  display: flex;
+  align-items: center;
+  margin-left: 160px;
+}
+.team-img-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+.teams-content {
+  padding-left: 70px;
+  padding-right: 70px;
+}
