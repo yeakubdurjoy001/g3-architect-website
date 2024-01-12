@@ -62,3 +62,13 @@ nav > ul {
     flex-direction: column;
   }
 }
+
+/* Responsive styles for Tablet devices */
+@media screen and (min-width: 576px) and (max-width: 960px) {
+  header {
+    padding: 45px;
+  }
+  nav {
+    flex-direction: column;
+  }
+}
